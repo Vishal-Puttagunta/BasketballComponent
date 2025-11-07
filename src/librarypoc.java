@@ -6,7 +6,7 @@ import components.simplewriter.SimpleWriter1L;
 /**
  * proof-of-concept
  */
-public final class library {
+public final class librarypoc {
 
     private final Map<String, Integer> copies = new Map1L<>();
 
@@ -60,7 +60,7 @@ public final class library {
     public static void main(String[] args) {
         SimpleWriter out = new SimpleWriter1L();
 
-        library lib = new library();
+        librarypoc lib = new librarypoc();
 
         lib.addTitle("Harry Potter", 2);
         lib.addTitle("Percy Jackson", 1);
