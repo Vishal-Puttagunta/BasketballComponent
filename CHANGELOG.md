@@ -105,6 +105,38 @@ the following form: YYYY.0M.0D.
 ### Updated
 
 - Changed design to include ...
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Calendar Versioning](https://calver.org/) of
+the following form: YYYY.0M.0D.
+
+## 2025.11.21
+
+### Added
+
+- Designed kernel implementation for Library component
+
+### Updated
+- Updated project design to include final kernel implementation details
+
+## 2025.12.10
+
+### Added
+
+- Designed test suite for Library component
+- Designed two different use cases for Library component
+
+### Updated
+
+- Changed design to include finishing touches
+
+```
+
+- Changed design to include ...
 [unreleased]: https://github.com/jrg94/portfolio-project/compare/v2024.08.07...HEAD
 [2024.08.07]: https://github.com/jrg94/portfolio-project/compare/v2024.01.07...v2024.08.07
 [2024.01.07]: https://github.com/jrg94/portfolio-project/releases/tag/v2024.01.07

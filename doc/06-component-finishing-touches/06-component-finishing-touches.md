@@ -141,7 +141,6 @@ to see them. If you don't like this workflow, you may try following the
 rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
 
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 
@@ -307,18 +306,19 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+I understand software development a lot better after completing the portfolio project. I feel like I have a better understanding of how components work and what goes on behind the scenes.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+
+I feel in general I wasn't sure what goes in to making a data structure or a component and this helped bridge gaps in what I didn't already know.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+Software development is still something I enjoy. While my perspective of software development hasn't necessarily changed, this project helped open my eyes to how software engineers can make their own work more efficient by creating something which saves them time and effort.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,25 +326,25 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+One main skill I picked up would be time management. While this isn't necessarily a software or technical skill, being able to keep up with the content and push myself to do so even though it was technically an optional project helped keep myself in check.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+ - was able to consistently hit deadlines even through general course work
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+I would say my career trajectory feels about the same as when I started this project. I am still very interested in technology and am very interested in making a career out of it. Seeing constant advancements in the tech industry excite me and I want to be able to take part in it.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+One thing I believe is important is constantly reaching out to find work or proejcts and apply my skills. Something I've always been good at is outreach and that has resulted in me being able to talk my way into many technical roles which in turn set me up for my future. Some mentors I've built relationsihps with would be research professors, internship managers / co-workers, and fellow startup founders. All of these connections can help and motivate me to stay on my path.
 
 ### Changelog
 

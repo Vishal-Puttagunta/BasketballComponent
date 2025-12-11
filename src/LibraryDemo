@@ -1,0 +1,66 @@
+import components.simplewriter.SimpleWriter;
+import components.simplewriter.SimpleWriter1L;
+
+
+public final class LibraryDemo {
+
+
+    private LibraryDemo() {
+
+    }
+
+    public static void main(String[] args) {
+        SimpleWriter out = new SimpleWriter1L();
+        Library lib = new Library1L();
+
+        out.println("Library Demo");
+        out.println("Is library empty? " + lib.isEmpty());
+        out.println();
+
+        lib.addTitle("Harry Potter", 2);
+        lib.addTitle("Percy Jackson", 1);
+        lib.addTitle("Dune", 3);
+
+        out.println("Added titles:");
+        out.println("Harry Potter (2 copies)");
+        out.println("Percy Jackson (1 copy)");
+        out.println("Dune (3 copies)");
+        out.println();
+
+        out.println("Total distinct titles: " + lib.titleCount());
+        out.println("Harry Potter available? " + lib.isAvailable("Harry Potter"));
+        out.println("Percy Jackson available? " + lib.isAvailable("Percy Jackson"));
+        out.println("Dune available? " + lib.isAvailable("Dune"));
+        out.println();
+
+        out.println("Borrowing Harry Potter twice");
+        boolean firstBorrow = lib.borrow("Harry Potter");
+        boolean secondBorrow = lib.borrow("Harry Potter");
+        boolean thirdBorrow = lib.borrow("Harry Potter");
+
+        out.println(" First borrow success? " + firstBorrow);
+        out.println(" Second borrow success? " + secondBorrow);
+        out.println(" Third borrow (no copies left) success? " + thirdBorrow);
+        out.println("Harry Potter available now? " + lib.isAvailable("Harry Potter"));
+        out.println("Copies of Harry Potter: " + lib.copiesOf("Harry Potter"));
+        out.println("Distinct titles after borrowing: " + lib.titleCount());
+        out.println();
+
+        out.println("Returning Harry Potter");
+        boolean returned = lib.giveBack("Harry Potter");
+        out.println(" Return success? " + returned);
+        out.println("Harry Potter available now? " + lib.isAvailable("Harry Potter"));
+        out.println("Copies of Harry Potter: " + lib.copiesOf("Harry Potter"));
+        out.println();
+
+        out.println("Attempting to borrow Nonexistent Book");
+        boolean borrowFake = lib.borrow("Nonexistent Book");
+        out.println(" Borrow success? " + borrowFake);
+        out.println();
+
+        out.println("Final library state: " + lib.toString());
+        out.println("Is library empty? " + lib.isEmpty());
+
+        out.close();
+    }
+}
